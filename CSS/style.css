@@ -1,0 +1,119 @@
+:root{
+    --geltona:#ffd93d;
+    --violet:rgb(93, 38, 137);
+    --tamsi:#47297b;
+}
+*{
+    margin:0 auto;
+    box-sizing: border-box;
+}
+/*header*/
+header{
+    background-image: url(../IMG/header.jpg);
+}
+.filtras{
+background-color: rgba(93, 38, 137,0.5);
+}
+.siauras-container{
+    width: 60%;
+    margin: 0 auto;
+    padding: 4em 0;
+}
+header section{
+    text-align: center;
+}
+header i{
+    color:var(--geltona);
+  text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px rgb(208, 255, 0),
+      0 0 82px rgb(166, 255, 0),
+      0 0 92px rgb(255, 251, 0),
+      0 0 102px #0fa,
+      0 0 151px #0fa;
+      font-size: 100px;
+}
+.neon{
+    color: var(--geltona);font-size: xx-large;
+}
+/*nav*/
+nav{
+    background-color: var(--violet);
+}
+
+nav a{
+    text-decoration: none;
+    color:var(--geltona);
+}
+nav ul{
+    width: 30%;
+    margin:0 auto;
+ }
+    nav li {
+    display: inline-block;
+    list-style-type: none;
+    text-align: center;
+    padding: 1em;
+    margin: 0 1em;
+    cursor:pointer;
+    font-family: 'Oswald', sans-serif;
+}
+
+nav i{
+    color: var(--geltona);
+    text-align: center;
+    font-size: x-large;
+    font-family: 'Oswald', sans-serif;
+}
+nav p{
+    color: white;
+}
+/*body*/
+
+/* main*/
+article h2{
+    text-align: left;
+    margin:0.5em 22.5em;
+    font-family: 'Oswald', sans-serif;
+}
+article p{
+    text-align: left;
+    margin:0.5em 23.8em;
+    padding:0.5em 10em;
+    font-family: 'Open Sans', sans-serif;
+}
+main img{
+    width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+   .button{
+    text-decoration: none;
+    background-color: var(--geltona);
+    color: var(--tamsi);
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 10px;
+    margin: 4px 2px;
+    cursor: pointer;
+    text-align: left;
+    margin:0.5em 54em;
+    padding:1em 5em;
+    font-family: 'Open Sans', sans-serif;
+   } 
+
+/*footer*/
+footer {
+    background-color: var(--violet);
+    text-align: center;
+    color: var(--geltona);
+    padding: 2em 0;
+    font-family: 'Oswald', sans-serif;
+}
+footer i{
+font-size: 30px;
+}
